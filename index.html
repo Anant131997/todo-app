@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/clipboard-check-solid.svg" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div id="navBar">
+            <div id="logo">todo.</div>
+            <div id="navOptions">
+                <a href="#header">Home</a>
+                <a href="#container">Todo</a>
+                <a href="#contact">Sign Up</a>
+                <a href="#footer">Links</a>
+            </div>
+        </div>
+        <div id="intro">
+            <div id="quote">Manage your task .</div>
+            <a href="">Learn More</a>
+        </div>
+    </div>
+    
+    <div id="container">
+        <div id="todo-app">
+            <h2>What's your plan for today !</h2>
+            <div id="row">
+                <form action="" id="form-todo">
+                    <input id="input-box" type="text" placeholder="Add your task" autocomplete="off">
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div id="contact-form">
+            <div id="form-center">
+                <h1>Contact Us</h1>
+            </div>
+            <form action="https://formspree.io/f/mqkvqwgl" method="POST" class="contact-details">
+                <div id="form-element">
+                    <label for="username">User Name</label>
+                    <input type="text" name="username" id="username" class="text-capitalize" required autocapitalize="on" autocomplete="off" placeholder="Enter your name">
+                </div>
+                <div id="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required autocomplete="off" placeholder="Enter your email id">
+                </div>
+                <div id="form-element">
+                    <label for="phoneNo">Phone</label>
+                    <input type="number" name="phoneNo" id="phoneNo" required autocomplete="off" placeholder="Enter your phone number" maxlength="10">
+                </div>
+                <div id="form-element">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" class="text-capitalize" required autocomplete="off" autocapitalize="on" placeholder="Enter the subject">
+                </div>
+                <div id="form-element">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" autocapitalize="sentences" placeholder="Enter your message"></textarea>
+                </div>
+                <div id="form-center">
+                    <button class="button" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Follow us @</p>
+        <div id="social-media">
+            <i class="ri-facebook-fill social-link"></i>
+            <i class="ri-instagram-line social-link"></i>
+            <i class="ri-twitter-fill social-link"></i>
+        </div>
+    </div>
+</body>
+</html>
+
+<img src="" alt="">
